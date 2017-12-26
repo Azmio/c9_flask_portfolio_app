@@ -15,7 +15,7 @@ def home_page():
 
 @app.route('/<name>')
 def profile(name):
-	modiname= name+ 'The wise one' 
+	modiname= name+ ' The wise one' 
 	return render_template('index.html', name=modiname)
 
 
